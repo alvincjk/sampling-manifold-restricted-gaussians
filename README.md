@@ -10,9 +10,9 @@ Python implementation of algorithm from [[A. J. K. Chua, Sampling from manifold-
 
 ### METHODS
 
-**\__init\__**(*betastar, minisize=100, epsilon=1e-2, bounds=None, autocompact=True, replace=True*)
+**\_\_init\_\_**(*betastar, minisize=100, epsilon=1e-2, bounds=None, autocompact=True, replace=True*)
 
-**\__call\__**(*theta, alpha, jacobian, hessian=None*)
+**\_\_call\_\_**(*theta, alpha, jacobian, hessian=None*)
 
 ### ARGUMENTS
 
