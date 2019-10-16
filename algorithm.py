@@ -42,7 +42,7 @@ class iteration:
         else: self.curvatureterm = None
         self.timing.append(time.time())
         
-        self.beta = np.random.multivariate_normal(alpha, np.eye(ddim)/self.compactness, self.minisize)
+        self.beta = alpha+np.reshape(np.random.normal(0, 1/np.sqrt(self.compactness), self.minisize*ddim), [self.minisize,ddim])
         self.timing.append(time.time())
         
         self.samples = theta+np.einsum('ij,kj->ki', self.pseudoinverse, self.beta-alpha)
