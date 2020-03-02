@@ -1,6 +1,6 @@
 # Sampling from manifold-restricted Gaussians
 
-Python implementation of algorithm from [[A. J. K. Chua, Sampling from manifold-restricted distributions using tangent bundle projections, Stat. Comput., in press]](https://doi.org/10.1007/s11222-019-09907-8). Contains iteration class with documentation and example usage.
+Python implementation of algorithm from [[A. J. K. Chua, Sampling from manifold-restricted distributions using tangent bundle projections, Stat. Comput. 30, 587 (2020)]](https://doi.org/10.1007/s11222-019-09907-8). Contains iteration class with documentation and example usage.
 
 **<https://arxiv.org/abs/1811.05494>**
 
